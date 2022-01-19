@@ -1,0 +1,85 @@
+.p1-container{
+    position: relative;
+    min-height: 40vh;
+    margin-top:5rem;
+    display: grid;
+    justify-items: center;
+}
+
+.github-logo{
+    height: 400px;
+    width: 700px;
+    border-radius: 0.25rem;
+}
+
+.text{
+    width: 700px;
+    background-color: white;
+
+}
+
+.text h3{
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.text li{
+    color: hsl(209, 34%, 30%);
+    padding-left: 30px;
+}
+
+.skills-container{
+    padding-left: 25px;
+    display: flex;
+}
+
+.skill{
+    margin: 10px;
+    width: auto;
+    border-radius: 0.25rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(216, 212, 212);
+}
+
+.link{
+    color: hsl(205, 78%, 60%);
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    margin-left: 250px;
+}
+
+@media screen and (min-width: 992px) {
+    .p1-container{
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(30, 1fr);
+      padding-left: 250px;
+    }
+
+    .image{
+        grid-column: 1 / span 8;
+        grid-row: 1;
+    }
+
+    .github-logo{
+        height: 400px;
+        width: 700px;
+        border-radius: 0.25rem;
+        display: block;
+    }
+
+    .text{
+        width: 700px;
+        background-color: white;
+        border-radius: 0.25rem;
+        grid-column: 4 / -1;
+        grid-row: 1;
+        margin-top:5%;
+        margin-bottom: 5%;
+        z-index: 1;
+    }
+  }

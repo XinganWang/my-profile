@@ -1,0 +1,12 @@
+.project_container{
+    position: relative;
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: -70px;;
+}
+
+.projectpage{
+    padding-top:50px
+}
