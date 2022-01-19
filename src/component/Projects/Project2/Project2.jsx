@@ -7,7 +7,7 @@ export default function Project2() {
     return (
         <div className='p1-container'>
             <div className='image'>
-                <img src={logo} alt='GitHub' className='github-logo'></img>
+                <img src={logo} alt='Parks' className='github-logo'></img>
             </div>
             <div className='text'>
                 <h3>National Parks Canada</h3>

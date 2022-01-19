@@ -20,7 +20,7 @@ export default function Hello() {
                     </button>
                 </article>
                 <article>
-                    <img src={photo} className='photo'></img>
+                    <img src={photo} className='photo' alt='Xingan wang'></img>
                 </article>
             </div>
         </section>
