@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-profile/static/css/main.365714b9.css",
+    "main.js": "/my-profile/static/js/main.be186e16.js",
+    "static/media/github.jpg": "/my-profile/static/media/github.b842798bde6b8666c647.jpg",
+    "static/media/photo.JPG": "/my-profile/static/media/photo.bbef4a8ade83bb4864c7.JPG",
+    "static/media/parks.jpg": "/my-profile/static/media/parks.e735bcc8eda03775f4c3.jpg",
+    "index.html": "/my-profile/index.html",
+    "main.365714b9.css.map": "/my-profile/static/css/main.365714b9.css.map",
+    "main.be186e16.js.map": "/my-profile/static/js/main.be186e16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.365714b9.css",
+    "static/js/main.be186e16.js"
+  ]
+}
